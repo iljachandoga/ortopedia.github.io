@@ -1,0 +1,59 @@
+/* Reset základných štýlov (voliteľné, ale užitočné) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Všeobecné nastavenia */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Hlavička a pätička */
+header, footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Hlavný obsah */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Nadpisy */
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Odkazy */
+a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Zoznam projektov */
+ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+/* Oddelenie sekcií */
+section {
+  margin-bottom: 2rem;
+}
