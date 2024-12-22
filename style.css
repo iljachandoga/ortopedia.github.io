@@ -1,4 +1,4 @@
-/* Reset základných štýlov (voliteľné, ale užitočné) */
+/* Reset základných štýlov (voliteľné) */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,6 +10,24 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
   color: #333;
+}
+
+/* Navigácia */
+nav {
+  background-color: #333;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 /* Hlavička a pätička */
@@ -40,14 +58,9 @@ h2 {
 /* Odkazy */
 a {
   color: #0275d8;
-  text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-/* Zoznam projektov */
+/* Zoznam projektov alebo iných položiek */
 ul {
   list-style-type: disc;
   margin-left: 2rem;
